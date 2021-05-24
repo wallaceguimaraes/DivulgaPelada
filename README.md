@@ -8,7 +8,7 @@ Composer version 1.10.15
 BootstrapCDN version 4.6
 Laravel version 4.2.5
 PHP version 8.0.6
-MYSQL version
+MYSQL version 5.6
 
 Download and install Xampp in site:
 
