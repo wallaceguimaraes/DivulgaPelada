@@ -1,0 +1,45 @@
+
+            body {
+                font-family: 'Nunito', sans-serif; 
+                height:40rem;display:flex;
+                justify-content:center;
+                align-items:center;
+            }
+            .container{
+                display:flex;justify-content:center;align-items:center; flex-direction:column;
+            }
+
+            a.link{
+                color:gray;
+            }
+            a.link:hover{
+                color:blue;
+                cursor:pointer;
+            }
+
+            input{
+                width:18rem;
+                outline:none;
+                border-bottom:1px solid green;
+                transition: border-bottom 1s; 
+            }
+            label{
+                margin-top:2rem;
+            }
+
+            button{
+                margin:2rem 0;
+                border-radius:5px;
+                background-color:#28a745;
+                color: white;
+                width:18rem;
+                height: 2.5rem;
+                
+            }
+
+            input:focus{
+                
+                border-bottom:1px solid blue;
+            }
+
+        
