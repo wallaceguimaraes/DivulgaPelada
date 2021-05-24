@@ -37,4 +37,18 @@ To use the JWT token install JWT in comand line:
 
 composer require tymon/jwt-auth:dev-develop --prefer-source
 
+Case memory limit excedded, run comand line to verify memory limit size:
+
+php -r"echo ini_get('memory_limit').PHP_EQL;"
+
+After, set value in file php.ini:
+memory_limit=2G
+
+You need to publish the config file for JWT using the following comand:
+php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
+
+When that is done, set the jwt-auth secret by running the following comand:
+
+php artisan jwt:secret
+
 
