@@ -10,6 +10,6 @@ class UserPelada extends Model
     use HasFactory;
 
     protected $fillable = [
-        'user_id','pelada_id','status'
+        'user_id','pelada_id','status','ativo'
     ];
 }
