@@ -18,7 +18,7 @@ class CreateUserPeladasTable extends Migration
             $table->unsignedBigInteger('user_id');
             $table->unsignedBigInteger('pelada_id');
             $table->string('status');
-            $table->unsignedBigInteger('creator');
+            
             $table->string('ativo');
             $table->timestamps();
         });
