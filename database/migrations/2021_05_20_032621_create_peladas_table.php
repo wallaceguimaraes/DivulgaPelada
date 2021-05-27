@@ -19,9 +19,8 @@ class CreatePeladasTable extends Migration
             $table->timestamp('date');
             $table->time('hours');
             $table->string('local');
-            $table->string('updated_at');
-            $table->string('created_at');
             $table->string('creator');
+            $table->timestamps();
         });
     }
 
