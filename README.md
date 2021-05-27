@@ -91,6 +91,8 @@ php -r"echo ini_get('memory_limit').PHP_EQL;"
 After, set value in file php.ini:
 memory_limit=2G
 
+composer require laravel/ui
+
 You need to publish the config file for JWT using the following comand:
 php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
 
