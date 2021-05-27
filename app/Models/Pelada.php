@@ -10,7 +10,7 @@ class Pelada extends Model
     use HasFactory;
 
     protected $fillable = [
-        'event_name','date', 'hours', 'local','updated_at','created_at','creator',
+        'event_name','date', 'hours', 'local','creator',
     ];
 
 }
